@@ -1,0 +1,70 @@
+.logo {
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+
+.form-login {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #E1E8ED;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    height: 30px;
+}
+
+.submit-login {
+    width: 100%;
+    border: none;
+    background-color: #1DA1F2;
+    color: #ffffff;
+    height: 30px;
+    border-radius: 1rem;
+}
+
+.submit-login:hover {
+    background-color: rgb(12, 154, 241);
+    cursor: pointer;
+}
+
+.submit-login:focus {
+    outline: none;
+}
+
+.form-login[type="text"] {
+    background-image: url(../img/pages/index/user.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px 5px ;
+}
+
+.form-login[type="password"] {
+    background-image: url(../img/pages/index/password.svg);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 10px 6px ;
+}
+
+.form-login[type="text"]:hover, .form-login[type="text"]:focus {
+    background-image: url(../img/pages/index/user-active.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    border-bottom: 1px solid #1DA1F2;
+}
+
+.form-login[type="password"]:hover, .form-login[type="password"]:focus {
+    background-image: url(../img/pages/index/password-active.svg);
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: 10px 6px ;
+    border-bottom: 1px solid #1DA1F2;
+}
+
+.notification {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 1rem;
+}
