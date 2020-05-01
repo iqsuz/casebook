@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    border: 1px black solid;
+}
+
+.main-ul {
+    display: inline-block;
+    border: 2px red solid;
+}
+
+.main-ul > li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.dropdown-ul {
+    display: none;
+}
+
+.dropdown-ul > li {
+    list-style-type: none;
+}
+
+.nav-item-dropdown:hover .dropdown-ul {
+    display: block;
+    position: absolute;
+}
