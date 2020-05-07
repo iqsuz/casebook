@@ -1,39 +1,52 @@
-<link rel="stylesheet" href="bootstrap.css">
 <link rel="stylesheet" href="my.css">
 
 
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-    <div class="navbar-container">
-        
+<nav class="navbar">
+    <div class="navbar-brand-container">
+        <a class="navbar-brand" href="#">
+            <img src="logo.svg" alt="">
+            <span>casebook</span> 
+        </a>
     </div>
-    <a class="navbar-brand" href="#">
-        <img src="icon.gif" width="30" height="30" class="d-inline-block align-top" alt="">
-        casebook
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="#">Timeline <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Create
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Inline</a>
-                <a class="dropdown-item" href="#">OEM</a>
-            </div>
+    
+    <div class="navbar-menu-container">
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">Timeline</a>
             </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Tools</a>
-        </li>        
+            
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">
+                    Create 
+                    <img src="" alt="" class="navbar-arrow">
+                </a>
+                
+                <div class="dropdown-menu">
+                    <ul class="dropdown-list">
+                        <li class="dropdown-item">
+                            <a href="#" class="navbar-link">Inline</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="navbar-link">OEM</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </li>
+            
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">Tools</a>
+            </li>
+
         </ul>
-    </div>    
+    </div>
+    
+    <div class="navbar-profile-container">
+        <a href="navbar-profile">
+            <img src="profile.jpg" alt="">
+            <span>Mehmet Ali Ipsuz</span> 
+        </a>
+    </div>
 </nav>
 
-  <script src="jquery.js"></script>
-  <script src="bootstrap.js"></script>

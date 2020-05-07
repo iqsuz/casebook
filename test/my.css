@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'TitilliumWeb';
+    src: url('../style/TitilliumWeb-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+.navbar * {
+    box-sizing: border-box;
+    font-family: TitilliumWeb;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1487FF;
+    height: 41px;
+    border-bottom: 1px #001A89 solid;
+    font-size: 20px;
+}
+
+.navbar-brand-container {
+    flex: 3 3 300px;
+    
+    min-width: 200px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu-container {
+    flex: 5 5 400px;
+
+    min-width: 500px;
+}
+
+.navbar-profile-container {
+    flex: 3 3 300px;
+
+    min-width: 200px;
+}
+
+.navbar-brand-container a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand:hover {
+    background-color: #006EF0;
+    color: #FFFFFF;    
+}
+
+.navbar-brand-container img {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar-brand-container span {
+    position: relative;
+    top: -5px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-item {
+    position: relative;
+    top: 5px;
+}
+
+.navbar-item:hover > .dropdown-menu {
+    display: block;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-size: 1em;
+    color: #FFFFFF;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.navbar-item > .navbar-link:hover {
+    background-color: #006EF0;
+    color: #E7E8E9;
+    border-radius: 1em;
+}
+
+.dropdown-menu {
+    background-color: #F2F4F4;
+    border: 1px solid #C6C7C9;
+    min-width: 100px;
+    text-align: center;
+    display: none;
+}
+
+.dropdown-menu .navbar-link {
+    background-color: black;
+}
+
+.dropdown-list {
+    list-style-type: none;
+}
+
+.navbar-profile-container img {
+    height: 1.75em;
+    width: 1.75em;
+    border-radius: .875em ;
+}
+
+.navbar-profile-container a {
+    text-decoration: none;
+}
+
